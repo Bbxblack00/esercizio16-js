@@ -47,12 +47,15 @@ function init() {
 
   // testManager(test3);
 
-  let res = test4();
-  console.log(res);
+  // let res = test4();
+  // console.log(res);
 
-  res = test5();
-  console.log(res);
+  // res = test5();
+  // console.log(res);
 
-  res = test6();
+  // res = test6();
+  // console.log(res);
+
+  res = test7();
   console.log(res);
 }
