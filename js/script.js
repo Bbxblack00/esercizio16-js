@@ -37,6 +37,34 @@ const test7 = () => {   // arrow function no args, with statement
   return -1;
 }
 
+// arrow function
+const test8 = x => {
+  console.log('test8');
+
+  return x * y;
+}
+
+// arrow function
+const test9 = (x, y) => {
+
+  console.log('test9');
+
+  return x + y;
+}
+
+
+function miaFun(x, y, ...args) {
+
+  // console.log(x);
+  //
+  // console.log(y);
+  //
+  // console.log(args);
+
+  return args;
+}
+
+function sum
 
 
 
@@ -56,6 +84,26 @@ function init() {
   // res = test6();
   // console.log(res);
 
-  res = test7();
+  // res = test7();
+  // console.log(res);
+
+  // console.log(this);
+
+  // const btns = $('.myButton');
+  // btns.click(function() {
+
+    //$(this).fadeOut();
+  //   console.log(this);
+  //   console.log('click');
+  // });
+
+  const res = miaFun('valx', 'valy', 1, 2, 3, 4);
   console.log(res);
+
+  //reduce
+
 }
+
+// jquery
+// non fare più $(document).ready(init); bensì:
+$(init);
